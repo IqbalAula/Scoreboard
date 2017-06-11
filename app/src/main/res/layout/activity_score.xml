@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.coffeorder.coffeorderapps.OrderActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player A"
+        android:id="@+id/playerATextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="46dp"
+        android:layout_alignParentTop="true"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player B"
+        android:id="@+id/playerBTextView"
+        android:layout_alignTop="@+id/playerATextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="52dp"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/scoreATextView"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/playerATextView"
+        android:layout_alignStart="@+id/playerATextView"
+        android:textSize="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/scoreBTextView"
+        android:layout_alignTop="@+id/scoreATextView"
+        android:layout_alignStart="@+id/playerBTextView"
+        android:textSize="60dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/plusAButton"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/scoreATextView"
+        android:layout_alignStart="@+id/scoreATextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/plusBButton"
+        android:onClick="playerBPlus"
+        android:layout_alignTop="@+id/plusAButton"
+        android:layout_alignEnd="@+id/playerBTextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/minAButton"
+        android:layout_below="@+id/plusAButton"
+        android:layout_alignStart="@+id/plusAButton"
+        android:onClick="playerAMin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:id="@+id/resetButton"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/minAButton"
+        android:layout_marginBottom="41dp"
+        android:onClick="reset" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/minBButton"
+        android:onClick="playerBMin"
+        android:layout_below="@+id/plusBButton"
+        android:layout_alignRight="@+id/playerBTextView" />
+
+</RelativeLayout>

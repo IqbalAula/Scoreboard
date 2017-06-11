@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Kuliah\Semester 6\Pemrograman Aplikasi Mobile\8329\Scoreboard\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="E:\Kuliah\Semester 6\Pemrograman Aplikasi Mobile\8329\Scoreboard\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-9a47da3b09519be94c5c3fd4dd2538387cd8460e.jar" />
+    </item>
+    <item
+        jar="E:\Kuliah\Semester 6\Pemrograman Aplikasi Mobile\8329\Scoreboard\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="E:\Kuliah\Semester 6\Pemrograman Aplikasi Mobile\8329\Scoreboard\app\build\intermediates\pre-dexed\debug\classes-eea3e735922531c104573aee69ed186c72abe9ae.jar" />
+    </item>
+    <item
+        jar="C:\Users\Seven\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="E:\Kuliah\Semester 6\Pemrograman Aplikasi Mobile\8329\Scoreboard\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-de81ab078c0c3b2f05a10f8526f1921e334b9f99.jar" />
+    </item>
+    <item
+        jar="E:\Kuliah\Semester 6\Pemrograman Aplikasi Mobile\8329\Scoreboard\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="E:\Kuliah\Semester 6\Pemrograman Aplikasi Mobile\8329\Scoreboard\app\build\intermediates\pre-dexed\debug\classes-7ad375f83aa336c8cf3241bcc3467f6948e03850.jar" />
+    </item>
+
+</items>
